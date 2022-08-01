@@ -30,7 +30,6 @@ def BitmapHoles(strArr):
         for j in range(len(strArr[i])):
             bitmap[(i,j)] = int(strArr[i][j])
     
-    print(bitmap)
     hole_count = 0
     hole = set()
     checked = set()
